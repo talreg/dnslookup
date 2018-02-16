@@ -12,6 +12,7 @@ Building
 --------------
 You'll need go to build this small utility, `make`  will make things easier:
 just run `make`.
+
 Testing
 ------------
 There are no tests at the moment
