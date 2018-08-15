@@ -29,4 +29,13 @@ func main() {
 	}
 	fmt.Printf("found %d addresses:\n", len(ipForHost))
 	fmt.Println(ipForHost)
+	currentIndex := 0
+	for address := range ipForHost {
+		fmt.Print(address)
+		if currentIndex < (len(ipForHost) - 1) {
+			fmt.Print(",")
+		}
+		currentIndex++
+	}
+	fmt.Println()
 }
